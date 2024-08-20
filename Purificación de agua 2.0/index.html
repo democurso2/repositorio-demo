@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Purificación de agua</title>
+  </head>
+
+  <body>
+    <header class="menu">
+      <h1>Métodos de Purificación del Agua</h1>
+      <nav style="background-color: red">
+        <a class="boton" href="">Inicio</a>
+        <a class="boton desplegable" href="">Metodos de purificacion</a>
+        <a class="boton" href="">Comparacion de metodos</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>¿Qué es la Purificación de Agua para Consumo Doméstico?</h2>
+        <article>
+          <p>
+            La purificación de agua para consumo doméstico es el proceso
+            mediante el cual se eliminan contaminantes y sustancias no deseadas
+            del agua, haciéndola segura y apta para beber y otras actividades
+            domésticas.
+          </p>
+          <p>
+            Este proceso asegura que el agua esté libre de microorganismos
+            patógenos, químicos nocivos, sedimentos y otros contaminantes que
+            puedan afectar la salud humana o el sabor y la apariencia del agua.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Métodos de Purificación</h2>
+        <div class="contenedor">
+          <article>
+            <h3>Filtración</h3>
+            <p>
+              La filtración es un método efectivo para eliminar partículas
+              sólidas y algunas impurezas del agua.
+            </p>
+            <img src="./imagenes/filtracion.jpg" alt="" />
+            <a class="boton brillo-azul" href="./purificacion/filtracion.html"
+              >Ir a la página de Filtración</a>
+          </article>
+
+          <article>
+            <h3>Cloración</h3>
+            <p>
+              La cloración utiliza cloro para desinfectar el agua y eliminar
+              microorganismos.
+            </p>
+            <img src="./imagenes/cloracion.jpg" alt="" />
+            <a class="boton brillo-azul" href="./purificacion/cloracion.html"
+              >Ir a la página de Cloración</a
+            >
+          </article>
+
+          <article>
+            <h3>Destilación</h3>
+            <p>
+              La destilación consiste en evaporar y luego condensar el agua para
+              obtener agua pura.
+            </p>
+            <img src="./imagenes/destilacion.jpg" alt="" />
+            <a class="boton brillo-azul" href="./purificacion/destilacion.html"
+              >Ir a la página de Destilación</a
+            >
+          </article>
+
+          <article>
+            <h3>Ozonización</h3>
+            <p>
+              La ozonización utiliza ozono para desinfectar el agua y eliminar
+              contaminantes.
+            </p>
+            <img src="./imagenes/ozonizacion.jpeg" alt="" />
+            <a class="boton brillo-azul" href="./purificacion/ozonizacion.html"
+              >Ir a la página de Ozonización</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Comparación de Métodos de Purificación del Agua</h2>
+        <table>
+          <tr>
+            <th>Método</th>
+            <th>Beneficios</th>
+            <th>Desventajas</th>
+          </tr>
+          <tr>
+            <td>Filtración</td>
+            <td>
+              <ul>
+                <li>Elimina partículas sólidas.</li>
+                <li>Mejora el color y sabor.</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>No elimina contaminantes químicos.</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Cloración</td>
+            <td>
+              <ul>
+                <li>Efectivo contra microorganismos.</li>
+                <li>Relativamente económico.</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Puede generar subproductos tóxicos.</li>
+                <li>No elimina algunos compuestos químicos.</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Destilación</td>
+            <td>
+              <ul>
+                <li>Elimina la mayoría de los contaminantes.</li>
+                <li>Agua pura sin minerales.</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Consumo energético alto.</li>
+                <li>No elimina gases disueltos.</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Ozonización</td>
+            <td>
+              <ul>
+                <li>Desinfección efectiva.</li>
+                <li>No deja residuos químicos.</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Requiere equipos especializados.</li>
+                <li>Ozono puede ser costoso de generar.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="encuesta">
+        <h3>Ayudanos con una pequeña encuesta</h3>
+        <form method="post">
+          <div>
+            <label for="tipoagua">Que tipo de agua tenes en tu casa</label>
+            <select name="tipo de agua" id="tipoagua">
+              <option value="agua de pozo">Agua de pozo</option>
+              <option selected value="agua de red">Agua de red</option>
+              <option value="bidones">Bidones de agua purificada</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="vasosagua">Cuanta cantidad de vasos de agua consumis al dia</label>
+            <input type="number" id="vasosagua" name="vasos de agua" />
+          </div>
+
+          <div>
+            <input type="checkbox" name="tiene dispenser" id="dispenser" />
+            <label for="dispenser"> Tengo dispenser de agua</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="tiene filtro" id="filtro" />
+            <label for="filtro"> Tengo filtro de agua</label>
+          </div>
+
+          <div class="comentario">
+            <label for="comentario">Queres contarnos algo mas?</label>
+            <textarea name="" id="comentario"> </textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="Enviar respuesta" />
+          </div>
+
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        © 2024 Métodos de Purificación del Agua. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
