@@ -1,4 +1,4 @@
-# Destilacion de agua - Trabajo integrador parte 1
+# Destilacion de agua - Trabajo integrador parte 2
 
 ## Descripcion
 Usando el archivo ```estilos.css``` del proyecto, dar estilos a las 4 paginas que contienen un metodo de purificacion de agua distinto y al ```index.html``` que tiene un enlace a cada pagina.
